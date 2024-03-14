@@ -55,10 +55,10 @@ class ManajerKontak1 {
             return;
         }
         Kontak1 current = head;
-        boolean found = false;
+        boolean ditemukan = false;
         while (current != null) {
             if (current.nama.equalsIgnoreCase(nama)) {
-                found = true;
+                ditemukan = true;
                 System.out.println("Kontak ditemukan!");
                 System.out.println("Nama: " + current.nama);
                 System.out.println("Nomor Telepon: " + current.nomorTelepon);
@@ -66,7 +66,7 @@ class ManajerKontak1 {
             }
             current = current.next;
         }
-        if (!found) {
+        if (!ditemukan) {
             System.out.println("Kontak tidak ditemukan.");
         }
     }
@@ -83,7 +83,7 @@ public class TUGAS2 {
             System.out.println("1. Tambah Kontak\n2. Tampilkan Kontak\n3. Cari Kontak\n4. Keluar");
             System.out.print("Pilih menu (1/2/3/4): ");
             pilihan = scanner.nextInt();
-            scanner.nextLine(); // konsumsi newline
+            scanner.nextLine();
 
             switch (pilihan) {
                 case 1:
