@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Modul 1/Modul 1.iml" filepath="$PROJECT_DIR$/Modul 1/Modul 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modul 2/Modul 2.iml" filepath="$PROJECT_DIR$/Modul 2/Modul 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modul 3/Modul 3.iml" filepath="$PROJECT_DIR$/Modul 3/Modul 3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modul2/Modul1.iml" filepath="$PROJECT_DIR$/Modul2/Modul1.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructureData_S4.iml" filepath="$PROJECT_DIR$/StructureData_S4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StrukturData_Tugas1/StrukturData_Tugas1.iml" filepath="$PROJECT_DIR$/StrukturData_Tugas1/StrukturData_Tugas1.iml" />
     </modules>
   </component>
 </project>

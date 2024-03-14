@@ -8,7 +8,7 @@ public class Node {
     }
 }
 
-public class LatihanLinkedListManual {
+class LatihanLinkedListManual {
     public static void main(String[] args) {
         Node head = new Node(5);
 
