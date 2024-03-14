@@ -40,6 +40,7 @@ class ManajerKontak {
         int indeks = 1;
         for (Kontak kontak : kontak) {
             System.out.println(indeks + ". " + kontak.getNama() + " - " + kontak.getNomorTelepon());
+            System.out.println("------------- \n");
             indeks++;
         }
     }

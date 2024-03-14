@@ -42,7 +42,8 @@ class ManajerKontak1 {
         int index = 1;
         Kontak1 current = head;
         while (current != null) {
-            System.out.println(index + ". " + current.nama + "\n-" + current.nomorTelepon);
+            System.out.println(index + ". " + current.nama + "\n-" + current.nomorTelepon + "\t");
+            System.out.println("------------- \n");
             current = current.next;
             index++;
         }

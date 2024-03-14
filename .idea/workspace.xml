@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f5948b-acd6-4da5-bf7b-97e601350320" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Modul 2/src/TUGAS1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modul 2/src/TUGAS2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modul 3/Modul 3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="f9f5948b-acd6-4da5-bf7b-97e601350320" name="Changes" comment="M2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modul 2/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modul 2/src/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StrukturData_Tugas1/src/DasarLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/StrukturData_Tugas1/src/DasarLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modul 2/src/TUGAS2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modul 2/src/TUGAS2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,9 +92,20 @@
       <option name="presentableId" value="Default" />
       <updated>1708676411219</updated>
     </task>
+    <task id="LOCAL-00001" summary="M2">
+      <option name="closed" value="true" />
+      <created>1710412398750</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710412398750</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="M2" />
+    <option name="LAST_COMMIT_MESSAGE" value="M2" />
   </component>
 </project>
