@@ -64,7 +64,7 @@ public class TUGAS1 {
         TUGAS1 browserHistory = new TUGAS1();
         browserHistory.visitURL("https://www.nasa.gov/");
         browserHistory.visitURL("https://www.google.com/");
-        browserHistory.visitURL("https://www.nasa.gov/smallspacecraft/technology-demonstrations/");
+        browserHistory.visitURL("https://github.com/");
 
         System.out.println("Current URL: " + browserHistory.getCurrentURL());
         browserHistory.forward();

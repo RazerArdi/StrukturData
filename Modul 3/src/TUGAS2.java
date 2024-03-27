@@ -18,13 +18,13 @@ public class TUGAS2 {
     private class Node {
         String namaPemesan;
         int jumlahTiket;
-        int nomorPemesanan;
+        int ID_Pesanan;
         Node next;
 
-        Node(String namaPemesan, int jumlahTiket, int nomorPemesanan) {
+        Node(String namaPemesan, int jumlahTiket, int ID_Pesanan) {
             this.namaPemesan = namaPemesan;
             this.jumlahTiket = jumlahTiket;
-            this.nomorPemesanan = nomorPemesanan;
+            this.ID_Pesanan = ID_Pesanan;
             this.next = null;
         }
     }
@@ -36,8 +36,8 @@ public class TUGAS2 {
     }
 
     public void tambahAntrian(String namaPemesan, int jumlahTiket) {
-        int nomorPemesanan = ++jumlah;
-        Node nodeBaru = new Node(namaPemesan, jumlahTiket, nomorPemesanan);
+        int ID_Pesanan = ++jumlah;
+        Node nodeBaru = new Node(namaPemesan, jumlahTiket, ID_Pesanan);
         if (tail != null) {
             tail.next = nodeBaru;
         }
@@ -49,58 +49,81 @@ public class TUGAS2 {
 
     public void tampilkanAntrian() {
         Node saatIni = head;
+        if (saatIni == null) {
+            System.out.println("Antrian kosong.");
+            return;
+        }
         while (saatIni != null) {
-            System.out.println("Nomor Pemesanan: " + saatIni.nomorPemesanan + ", Nama Pemesan: " + saatIni.namaPemesan + ", Jumlah Tiket: " + saatIni.jumlahTiket);
+            System.out.println("ID Pesanan: " + saatIni.ID_Pesanan + ", Nama Pemesan: " + saatIni.namaPemesan + ", Jumlah Tiket: " + saatIni.jumlahTiket);
             saatIni = saatIni.next;
         }
     }
 
-    public void hapusAntrian() {
-        if (head != null) {
-            System.out.println("Menghapus Nomor Pemesanan: " + head.nomorPemesanan);
-            head = head.next;
-            if (head == null) {
-                tail = null;
-            }
-        } else {
-            System.out.println("Antrian kosong.");
+    public void hapusAntrian(int ID_Pesanan) {
+        Node saatIni = head;
+        Node prev = null;
+
+        while (saatIni != null && saatIni.ID_Pesanan != ID_Pesanan) {
+            prev = saatIni;
+            saatIni = saatIni.next;
         }
+
+        if (saatIni == null) {
+            System.out.println("Pemesanan dengan ID Pesanan " + ID_Pesanan + " tidak ditemukan.");
+            return;
+        }
+
+        if (prev != null) {
+            prev.next = saatIni.next;
+        } else {
+            head = saatIni.next;
+        }
+
+        if (saatIni == tail) {
+            tail = prev;
+        }
+
+        System.out.println("Pemesanan dengan ID Pesanan " + ID_Pesanan + " berhasil dihapus.");
     }
 
     public static void main(String[] args) {
         TUGAS2 antrian = new TUGAS2();
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Selamat datang di Sistem Antrian Tiket KAI");
+        System.out.println("Author: Bayu Ardiyansyah" +
+                "Sistem tiket KAI menggunakan Struktur data Queue");
         String masukan;
         do {
-            System.out.println("Masukkan 'tambah' untuk menambah pesanan tiket baru, 'tampilkan' untuk menampilkan antrian, 'hapus' untuk menghapus pesanan dari antrian, atau 'keluar' untuk keluar.");
+            System.out.println("\n1 == tambah, untuk menambah pesanan tiket baru, \n2 == tampilkan, untuk menampilkan antrian " +
+                    "\n3 == hapus, untuk menghapus pesanan dari antrian,\n4 == keluar, untuk Out.");
+            System.out.println("\nMasukkan pilihan: ");
             masukan = scanner.nextLine();
 
             switch (masukan) {
-                case "tambah":
+                case "1":
                     System.out.print("Masukkan nama pemesan tiket: ");
                     String namaPemesan = scanner.nextLine();
                     System.out.print("Masukkan jumlah tiket: ");
                     int jumlahTiket = Integer.parseInt(scanner.nextLine());
                     antrian.tambahAntrian(namaPemesan, jumlahTiket);
                     break;
-                case "tampilkan":
+                case "2":
                     antrian.tampilkanAntrian();
                     break;
-                case "hapus":
-                    antrian.hapusAntrian();
+                case "3":
+                    System.out.print("Masukkan ID Pesanan yang akan dihapus: ");
+                    int ID_Pesanan = Integer.parseInt(scanner.nextLine());
+                    antrian.hapusAntrian(ID_Pesanan);
                     break;
-                case "keluar":
+                case "4":
                     System.out.println("Keluar dari Sistem Antrian Tiket KAI.");
                     break;
                 default:
                     System.out.println("Masukan tidak valid. Silakan coba lagi.");
                     break;
             }
-        } while (!masukan.equals("keluar"));
+        } while (!masukan.equals("4"));
 
         scanner.close();
     }
 }
-

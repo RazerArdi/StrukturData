@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f5948b-acd6-4da5-bf7b-97e601350320" name="Changes" comment="M4 - V1">
-      <change afterPath="$PROJECT_DIR$/Modul 3/src/TUGAS1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modul 3/src/TUGAS2.java" afterDir="false" />
+    <list default="true" id="f9f5948b-acd6-4da5-bf7b-97e601350320" name="Changes" comment="M4 - V2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modul4/src/Latihan1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modul 3/src/Latihan1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modul4/src/Latihan2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modul 3/src/Latihan2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modul 3/src/TUGAS1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modul 3/src/TUGAS1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modul 3/src/TUGAS2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modul 3/src/TUGAS2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +23,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "RazerArdi"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e5c14427-85f3-4155-bddb-d3ce780ed10f" />
+        <option name="url" value="https://github.com/RazerArdi/StrukturData.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -132,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711087179887</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="M4 - V2">
+      <option name="closed" value="true" />
+      <created>1711566000092</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711566000092</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -141,6 +161,7 @@
     <MESSAGE value="M2 - V1" />
     <MESSAGE value="M2 - V2" />
     <MESSAGE value="M4 - V1" />
-    <option name="LAST_COMMIT_MESSAGE" value="M4 - V1" />
+    <MESSAGE value="M4 - V2" />
+    <option name="LAST_COMMIT_MESSAGE" value="M4 - V2" />
   </component>
 </project>
