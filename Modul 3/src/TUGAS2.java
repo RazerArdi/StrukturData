@@ -59,32 +59,19 @@ public class TUGAS2 {
         }
     }
 
-    public void hapusAntrian(int ID_Pesanan) {
-        Node saatIni = head;
-        Node prev = null;
 
-        while (saatIni != null && saatIni.ID_Pesanan != ID_Pesanan) {
-            prev = saatIni;
-            saatIni = saatIni.next;
-        }
-
-        if (saatIni == null) {
-            System.out.println("Pemesanan dengan ID Pesanan " + ID_Pesanan + " tidak ditemukan.");
-            return;
-        }
-
-        if (prev != null) {
-            prev.next = saatIni.next;
+    public void hapusAntrian() {
+        if (head != null) {
+            System.out.println("Menghapus Nomor Pemesanan: " + head.ID_Pesanan);
+            head = head.next;
+            if (head == null) {
+                tail = null;
+            }
         } else {
-            head = saatIni.next;
+            System.out.println("Antrian kosong.");
         }
-
-        if (saatIni == tail) {
-            tail = prev;
-        }
-
-        System.out.println("Pemesanan dengan ID Pesanan " + ID_Pesanan + " berhasil dihapus.");
     }
+
 
     public static void main(String[] args) {
         TUGAS2 antrian = new TUGAS2();
@@ -111,9 +98,7 @@ public class TUGAS2 {
                     antrian.tampilkanAntrian();
                     break;
                 case "3":
-                    System.out.print("Masukkan ID Pesanan yang akan dihapus: ");
-                    int ID_Pesanan = Integer.parseInt(scanner.nextLine());
-                    antrian.hapusAntrian(ID_Pesanan);
+                    antrian.hapusAntrian();
                     break;
                 case "4":
                     System.out.println("Keluar dari Sistem Antrian Tiket KAI.");
