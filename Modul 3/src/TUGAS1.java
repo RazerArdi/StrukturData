@@ -62,6 +62,7 @@ public class TUGAS1 {
 
     public static void main(String[] args) {
         TUGAS1 browserHistory = new TUGAS1();
+
         browserHistory.visitURL("https://www.nasa.gov/");
         browserHistory.visitURL("https://www.google.com/");
         browserHistory.visitURL("https://github.com/");
