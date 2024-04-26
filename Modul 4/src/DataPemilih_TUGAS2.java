@@ -206,6 +206,7 @@ public class DataPemilih_TUGAS2 {
         votingSystem.addCandidate("Kandidat A");
         votingSystem.addCandidate("Kandidat B");
         votingSystem.addCandidate("Kandidat C");
+        votingSystem.addCandidate("Kandidat D");
 
         votingSystem.loginOrRegister();
     }

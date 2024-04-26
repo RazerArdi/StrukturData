@@ -34,6 +34,7 @@ public class SistemVotingOnline_TUGAS1 {
         votingSystem.addCandidate("Kandidat A");
         votingSystem.addCandidate("Kandidat B");
         votingSystem.addCandidate("Kandidat C");
+        votingSystem.addCandidate("Kandidat D");
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Selamat datang di Sistem Voting Online");

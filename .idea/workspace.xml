@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9f5948b-acd6-4da5-bf7b-97e601350320" name="Changes" comment="M4 - V2.5">
-      <change afterPath="$PROJECT_DIR$/DataPemilih.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modul 4/Modul 4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modul 4/src/DataPemilih_TUGAS2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modul 4/src/SistemVotingOnline_TUGAS1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modul 3/src/TUGAS1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modul 3/src/TUGAS1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +29,12 @@
     &quot;assignee&quot;: &quot;RazerArdi&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/RazerArdi/StrukturData.git",
-    "accountId": "e5c14427-85f3-4155-bddb-d3ce780ed10f"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RazerArdi/StrukturData.git&quot;,
+    &quot;accountId&quot;: &quot;e5c14427-85f3-4155-bddb-d3ce780ed10f&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -55,33 +50,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.CodeLab1.executor": "Run",
-    "Application.DasarLinkedList.executor": "Run",
-    "Application.DataPemilih_TUGAS2.executor": "Run",
-    "Application.Latihan1.executor": "Run",
-    "Application.Latihan2.executor": "Run",
-    "Application.LatihanArrayList.executor": "Run",
-    "Application.LatihanLinkedListManual.executor": "Run",
-    "Application.SistemVotingOnline_TUGAS1.executor": "Run",
-    "Application.TUGAS1.executor": "Run",
-    "Application.TUGAS2.executor": "Run",
-    "Application.Tugas1.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "openjdk-21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/StructureData_S4/CodeLab1/Modul 4/src/DataPemilih_TUGAS2.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "two.files.diff.last.used.file": "D:/StructureData_S4/CodeLab1/Modul 4/src/DataPemilih_TUGAS2.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.CodeLab1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DasarLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataPemilih_TUGAS2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Latihan1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Latihan2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LatihanArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LatihanLinkedListManual.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SistemVotingOnline_TUGAS1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TUGAS1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TUGAS2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Tugas1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/StructureData_S4/CodeLab1/Modul 4/src/DataPemilih_TUGAS2.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;D:/StructureData_S4/CodeLab1/Modul 4/src/DataPemilih_TUGAS2.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\StructureData_S4\CodeLab1\Modul 2\src" />
@@ -170,7 +165,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711604334420</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="M4 - V2.5">
+      <option name="closed" value="true" />
+      <created>1714064871770</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714064871770</updated>
+    </task>
+    <task id="LOCAL-00009" summary="M4 - V2.5">
+      <option name="closed" value="true" />
+      <created>1714064913773</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714064913773</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
