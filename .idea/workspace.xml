@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f5948b-acd6-4da5-bf7b-97e601350320" name="Changes" comment="M4 - V2.5">
+    <list default="true" id="f9f5948b-acd6-4da5-bf7b-97e601350320" name="Changes" comment="M4 - V2.6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataPemilih.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DataPemilih.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modul 4/src/DataPemilih_TUGAS2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modul 4/src/DataPemilih_TUGAS2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714103048570</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="M4 - V2.6">
+      <option name="closed" value="true" />
+      <created>1714105803044</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714105803044</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -201,6 +207,7 @@
     <MESSAGE value="M4 - V1" />
     <MESSAGE value="M4 - V2" />
     <MESSAGE value="M4 - V2.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="M4 - V2.5" />
+    <MESSAGE value="M4 - V2.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="M4 - V2.6" />
   </component>
 </project>

@@ -108,7 +108,7 @@ public class DataPemilih_TUGAS2 {
             loggedInUserEmail = email;
             pemilihan();
         } else {
-            System.out.println("Gagal Login");
+            System.out.println("Data tidak ditemukan");
             loginOrRegister();
         }
     }
