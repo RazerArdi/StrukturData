@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9f5948b-acd6-4da5-bf7b-97e601350320" name="Changes" comment="M4 - V2.5">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataPemilih.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DataPemilih.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modul 4/src/DataPemilih_TUGAS2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modul 4/src/DataPemilih_TUGAS2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714064913773</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="M4 - V2.5">
+      <option name="closed" value="true" />
+      <created>1714103048570</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714103048570</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

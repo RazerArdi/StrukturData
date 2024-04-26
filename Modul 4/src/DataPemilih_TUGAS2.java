@@ -120,13 +120,15 @@ public class DataPemilih_TUGAS2 {
         for (String candidate : candidates.keySet()) {
             System.out.println("- " + candidate);
         }
-        System.out.print("Masukkan nama kandidat (atau ketik 'selesai' untuk keluar): ");
+        System.out.print("Masukkan nama kandidat (atau ketik 'selesai' atau 'keluar' untuk keluar): ");
         String input = scanner.nextLine();
 
-        if (!input.equalsIgnoreCase("selesai")) {
+        if (!input.equalsIgnoreCase("selesai") && !input.equalsIgnoreCase("keluar")) {
             vote(input);
-        } else {
+        } else if (input.equalsIgnoreCase("selesai")) {
             displayResults();
+        } else if (input.equalsIgnoreCase("keluar")) {
+            logout();
         }
     }
 
