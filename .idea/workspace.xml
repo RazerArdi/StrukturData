@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9f5948b-acd6-4da5-bf7b-97e601350320" name="Changes" comment="M4 - V2.6">
-      <change afterPath="$PROJECT_DIR$/Modul5/Modul5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modul5/src/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modul5/src/CodeLab2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tugas3Strukdat/Tugas3Strukdat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tugas3Strukdat/src/TUGAS_3_Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataPemilih.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DataPemilih.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +68,7 @@
     "Application.SistemVotingOnline_TUGAS1.executor": "Run",
     "Application.TUGAS1.executor": "Run",
     "Application.TUGAS2.executor": "Run",
+    "Application.TUGAS_3_Tree.executor": "Run",
     "Application.Tugas1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -81,16 +80,17 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "two.files.diff.last.used.file": "D:/StructureData_S4/CodeLab1/Modul 4/src/DataPemilih_TUGAS2.java"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\StructureData_S4\CodeLab1" />
       <recent name="D:\StructureData_S4\CodeLab1\Modul 2\src" />
       <recent name="D:\StructureData_S4\CodeLab1\Modul 2" />
       <recent name="D:\StructureData_S4\CodeLab1\StrukturData_Tugas1\src" />
       <recent name="D:\StructureData_S4\CodeLab1\StrukturData_Tugas1" />
-      <recent name="D:\StructureData_S4\CodeLab1\src" />
     </key>
   </component>
   <component name="RunManager">
@@ -212,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714107523798</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="M4 - V2.6">
+      <option name="closed" value="true" />
+      <created>1715998773009</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715998773009</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
