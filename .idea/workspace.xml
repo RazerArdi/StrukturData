@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f5948b-acd6-4da5-bf7b-97e601350320" name="Changes" comment="M4 - V2.6">
-      <change afterPath="$PROJECT_DIR$/Tugas3Strukdat/Tugas3Strukdat.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tugas3Strukdat/src/TUGAS_3_Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="f9f5948b-acd6-4da5-bf7b-97e601350320" name="Changes" comment="M4 - V3">
+      <change afterPath="$PROJECT_DIR$/Modul5/src/BinaryTreeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modul5/src/Tugas1M5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modul5/src/Tugas2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modul5/src/BinaryTree.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +57,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.BinaryTree.executor": "Run",
+    "Application.BinaryTreeExample.executor": "Run",
     "Application.CodeLab1.executor": "Run",
     "Application.CodeLab2.executor": "Run",
     "Application.DasarLinkedList.executor": "Run",
@@ -70,6 +72,8 @@
     "Application.TUGAS2.executor": "Run",
     "Application.TUGAS_3_Tree.executor": "Run",
     "Application.Tugas1.executor": "Run",
+    "Application.Tugas1M5.executor": "Run",
+    "Application.Tugas2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -220,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715998773009</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="M4 - V3">
+      <option name="closed" value="true" />
+      <created>1716224987164</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1716224987164</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -232,6 +244,7 @@
     <MESSAGE value="M4 - V2" />
     <MESSAGE value="M4 - V2.5" />
     <MESSAGE value="M4 - V2.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="M4 - V2.6" />
+    <MESSAGE value="M4 - V3" />
+    <option name="LAST_COMMIT_MESSAGE" value="M4 - V3" />
   </component>
 </project>
