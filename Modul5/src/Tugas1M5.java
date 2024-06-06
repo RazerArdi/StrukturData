@@ -218,7 +218,7 @@ public class Tugas1M5 {
             System.out.println("7. Keluar");
             System.out.print("Pilih opsi: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine();
 
             switch (choice) {
                 case 1:

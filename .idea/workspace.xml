@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f5948b-acd6-4da5-bf7b-97e601350320" name="Changes" comment="M4 - V3">
+    <list default="true" id="f9f5948b-acd6-4da5-bf7b-97e601350320" name="Changes" comment="M5 - V2">
+      <change afterPath="$PROJECT_DIR$/Modul 6/Modul 6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modul 6/src/BFSTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modul 6/src/DFSTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modul 6/src/TUGAS1_GRAPH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modul 6/src/TUGAS2_DFS_BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modul5/src/Tugas1M5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modul5/src/Tugas1M5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modul5/src/Tugas2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modul5/src/Tugas2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,41 +57,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.BinaryTree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinaryTreeExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CodeLab1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CodeLab2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DasarLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataPemilih_TUGAS2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Latihan1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Latihan2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LatihanArrayList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LatihanLinkedListManual.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShortestPath.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SistemVotingOnline_TUGAS1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TUGAS1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TUGAS2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TUGAS_3_Tree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Tugas1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Tugas1M5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Tugas2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/StructureData_S4/CodeLab1/Modul 4/src/DataPemilih_TUGAS2.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;D:/StructureData_S4/CodeLab1/Modul 4/src/DataPemilih_TUGAS2.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.BFSTraversal.executor": "Run",
+    "Application.BinaryTree.executor": "Run",
+    "Application.BinaryTreeExample.executor": "Run",
+    "Application.CodeLab1.executor": "Run",
+    "Application.CodeLab2.executor": "Run",
+    "Application.DFSTraversal.executor": "Run",
+    "Application.DasarLinkedList.executor": "Run",
+    "Application.DataPemilih_TUGAS2.executor": "Run",
+    "Application.Latihan1.executor": "Run",
+    "Application.Latihan2.executor": "Run",
+    "Application.LatihanArrayList.executor": "Run",
+    "Application.LatihanLinkedListManual.executor": "Run",
+    "Application.ShortestPath.executor": "Run",
+    "Application.SistemVotingOnline_TUGAS1.executor": "Run",
+    "Application.TUGAS1.executor": "Run",
+    "Application.TUGAS1_GRAPH.executor": "Run",
+    "Application.TUGAS2.executor": "Run",
+    "Application.TUGAS2_DFS_BFS.executor": "Run",
+    "Application.TUGAS_3_Tree.executor": "Run",
+    "Application.Tugas1.executor": "Run",
+    "Application.Tugas1M5.executor": "Run",
+    "Application.Tugas2.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/StructureData_S4/CodeLab1/Modul 4/src/DataPemilih_TUGAS2.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "two.files.diff.last.used.file": "D:/StructureData_S4/CodeLab1/Modul 4/src/DataPemilih_TUGAS2.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\StructureData_S4\CodeLab1" />
@@ -238,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716467609134</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="M5 - V2">
+      <option name="closed" value="true" />
+      <created>1716475085961</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1716475085961</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -251,6 +269,7 @@
     <MESSAGE value="M4 - V2.5" />
     <MESSAGE value="M4 - V2.6" />
     <MESSAGE value="M4 - V3" />
-    <option name="LAST_COMMIT_MESSAGE" value="M4 - V3" />
+    <MESSAGE value="M5 - V2" />
+    <option name="LAST_COMMIT_MESSAGE" value="M5 - V2" />
   </component>
 </project>
