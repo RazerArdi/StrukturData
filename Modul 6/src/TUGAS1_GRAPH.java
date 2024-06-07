@@ -115,6 +115,37 @@ public class TUGAS1_GRAPH {
         }
     }
 
+    public void printDegreeInfo() {
+        Map<Character, Integer> inDegree = new HashMap<>();
+        Map<Character, Integer> outDegree = new HashMap<>();
+
+        for (char c = 'A'; c <= 'L'; c++) {
+            inDegree.put(c, 0);
+            outDegree.put(c, nodes.get(c).getNeighbors().size());
+        }
+
+
+        for (Node node : nodes.values()) {
+            for (Node neighbor : node.getNeighbors()) {
+                inDegree.put(neighbor.value, inDegree.get(neighbor.value) + 1);
+            }
+        }
+
+        int totalEdges = 0;
+
+        System.out.println("Degree Information:");
+        for (char c = 'A'; c <= 'L'; c++) {
+            int inDeg = inDegree.get(c);
+            int outDeg = outDegree.get(c);
+            System.out.println("Node " + c + ": In-Degree = " + inDeg + ", Out-Degree = " + outDeg);
+            totalEdges += outDeg;
+        }
+
+        int totalDegree = totalEdges;
+
+        System.out.println("Total Number of Degrees: " + totalDegree);
+    }
+
     public static void main(String[] args) {
         TUGAS1_GRAPH graph = new TUGAS1_GRAPH();
         System.out.println("Visualisasi:");
@@ -123,5 +154,7 @@ public class TUGAS1_GRAPH {
         graph.printNotation();
         System.out.println();
         graph.printAdjacencyMatrix();
+        System.out.println();
+        graph.printDegreeInfo();
     }
 }
